@@ -24,6 +24,9 @@ PHPQstat ha sido probado satisfactoriamente en el siguiente entorno:
    para evitar que se produzcan accesos no autorizados o se realicen inyecciones
    de código que puedan comprometer la integridad del sistema.
 
+Parámetros
+----------
+
 A continuación se comentan los parámetros del archivo `params.php`:
 
 * `id_grupo`: identificación del grupo del usuario actual. PHPQstat ha sido
@@ -46,6 +49,9 @@ A continuación se comentan los parámetros del archivo `params.php`:
   utilizar las distintas órdenes del mismo.
 * `sudo`, `zip`, `chown`, `chmod`...: ruta completa en el sistema de archivos a
   estas utilidades.
+
+Nota final
+----------
 
 Para conseguir una funcionalidad completa de PHPQstat es necesario añadir otros
 archivos, por ejemplo para el aspecto de las páginas (CSS) o las identidades de
