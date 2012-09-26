@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [ $# = '1' ]
+then
+        perl -pe 's/\r\n|\n|\r/\n/g' $1 > temp.dat
+	cp temp.dat $1
+	rm temp.dat 
+else
+echo "Falta algún parámetro, para usar este script: "
+echo "qconvert <fichero>"
+fi
+

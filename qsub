@@ -1,0 +1,10 @@
+#!/bin/sh
+if [ $# = '2' ]
+then
+. /etc/profile.d/n1ge-6.2.sh
+/usr/local/apps/n1ge6_2_ib/bin/lx24-amd64/qsub -@ $1 $2
+else
+echo "Falta algún parámetro, para usar este script: "
+echo "qsub <file_option_sge> <script_sge>"
+fi
+
