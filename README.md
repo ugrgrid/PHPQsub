@@ -1,8 +1,9 @@
 PHPQsub
-========
+=======
 
-PHPQsub is a PHP interface for Grid Engine, aimed at providing easily job
-submitting and basic monitoring capabilities.
+PHPQsub is a PHP interface for Grid Engine, developed at the University of 
+Granada and aimed at providing easily job submitting and basic monitoring
+capabilities.
 
 Requisitos
 ----------
